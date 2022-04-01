@@ -14,12 +14,17 @@ body {
     font-family: 'gilroy', sans-serif;
     font-size: 17px;
 }
-
+img {
+	max-width: 100%; 
+}
+.container {
+	overflow: hidden;
+}
 .doc_main_title {
     padding: 40px 0 10px 0;
     border-bottom: 1px solid #ddd;
     margin-bottom: 30px;
-    margin-left: 115px;
+    /* margin-left: 115px; */
     font-weight: 600;
     font-size: 40px;
     line-height: 48px;
@@ -33,7 +38,7 @@ body {
     font-size: 16px;
     line-height: 22px;
     color: #1F2035;
-    margin-left: 115px;
+    /* margin-left: 115px; */
 }
 
 .documentation_content .para-1 span {
@@ -52,7 +57,7 @@ body {
     font-size: 16px;
     line-height: 150%;
     color: #61616B; 
-	margin-right: 54px;
+	margin-right: 54px; 
 }
 
 #banner h4 {
@@ -187,4 +192,7 @@ pre {
 
 .side-logo {
     text-align: right;
+}
+@media(max-width:1140px) {
+
 }
