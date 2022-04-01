@@ -193,6 +193,11 @@ pre {
 .side-logo {
     text-align: right;
 }
-@media(max-width:1140px) {
-
+@media(max-width:1024px) {
+	.documentation_menu {
+		width: 25%;
+	}
+	.documentation_content {
+		width: 75%;
+	}
 }
