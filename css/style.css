@@ -60,6 +60,7 @@ body {
     line-height: 150%;
     color: #1F2035;
 	margin-bottom: 20px; 
+	margin-top: 30px;
 }
 
 .unorder-1 {
@@ -76,7 +77,7 @@ body {
     position: relative;
     list-style: none;
     margin-left: 30px;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
 }
 
 .unorder-1 li::before {
@@ -89,7 +90,15 @@ body {
     height: 6px;
     background-color: #289EF2;
 }
-
+#booking p {
+	margin-left: 0; 
+} 
+#blog p{
+	margin-left: 0;  
+}
+#testimonial p {
+	margin-left: 0;  
+}
 .doc_main_title i {
     display: block;
     margin-bottom: 10px;
