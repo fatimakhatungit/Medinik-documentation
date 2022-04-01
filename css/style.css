@@ -51,7 +51,8 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
-    color: #61616B;
+    color: #61616B; 
+	margin-right: 54px;
 }
 
 #banner h4 {
@@ -109,7 +110,7 @@ body {
 
 .documentation_menu {
     position: fixed;
-    width: 25%;
+    width: 20%;
     background-color: #fff;
     height: 100%;
     padding-top: 15px;
@@ -164,7 +165,7 @@ body {
 }
 
 .documentation_content {
-    width: 75%;
+    width: 80%;
     float: right;
 }
 
