@@ -193,11 +193,52 @@ pre {
 .side-logo {
     text-align: right;
 }
-@media(max-width:1024px) {
-	.documentation_menu {
-		width: 25%;
-	}
+
+@media(max-width:1441px) {  
+	
 	.documentation_content {
 		width: 75%;
-	}
+	} 
+}
+
+@media(max-width:1024px) {
+    .documentation_menu {
+        width: 22%;
+    }
+    .documentation_menu li a {
+        padding: 8px 15px;
+        font-size: 16px; 
+    }
+    .doc_main_title {
+        margin-bottom: 30px;
+        font-size: 35px;
+        line-height: 45px;
+    }
+    .documentation_content b {
+        font-size: 25px;
+    }
+    #banner h4 {
+        font-size: 20px;
+    }
+}
+@media(max-width:768px) {
+    .doc_main_title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+    .documentation_content b {
+        font-size: 20px;
+    }
+    #banner h4 {
+        font-size: 18px;
+    }
+    .unorder-1 li {
+        font-size: 14px;
+    }
+    .documentation_menu {
+        width: 30%;
+    }
+    .documentation_content {
+        width: 60%;
+    }
 }
